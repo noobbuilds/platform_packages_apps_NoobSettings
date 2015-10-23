@@ -44,6 +44,11 @@
     <PreferenceCategory
         android:key="noob_system"
         android:title="@string/noob_system">
+        
+        <PreferenceScreen
+            android:fragment="com.noob.settings.fragments.DisplaySettings"
+            android:key="noob_display_settings"
+            android:title="@string/display_settings_title"/>        
 
         <PreferenceScreen
             android:fragment="com.noob.settings.fragments.NotificationMediaSettings"
