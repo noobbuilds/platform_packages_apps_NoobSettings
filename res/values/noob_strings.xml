@@ -86,5 +86,8 @@
     <string name="volbtn_up_zen_summary">Allow volume up to exit do not disturb mode</string>
     <!-- Volume do not disturb switch -->
     <string name="vol_zen_title">Do not disturb switch</string>
-    <string name="vol_zen_summary">Show do not disturb switch on volume panel</string>                        
+    <string name="vol_zen_summary">Show do not disturb switch on volume panel</string>
+    <!-- Volume key orientation swap -->
+    <string name="swap_volume_buttons_title">Volume button swap</string>
+    <string name="swap_volume_buttons_summary">Adjust volume buttons action based on current orientation</string>                            
 </resources>
