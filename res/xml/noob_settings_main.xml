@@ -16,7 +16,12 @@
         <PreferenceScreen
             android:fragment="com.noob.settings.fragments.NotificationDrawerSettings"
             android:key="noob_notification_drawer_settings"
-            android:title="@string/notification_drawer_settings_title"/>       
+            android:title="@string/notification_drawer_settings_title"/>
+
+        <PreferenceScreen
+            android:fragment="com.noob.settings.fragments.RecentSettings"
+            android:key="pure_recent_settings"
+            android:title="@string/recent_settings_title"/>       
         
         <PreferenceScreen
             android:fragment="com.noob.settings.fragments.StatusBarSettings"
