@@ -11,6 +11,9 @@
     <string name="cancel">Cancel</string>
     <string name="save">Save</string>
     
+    <!-- Power Menu fragment -->
+    <string name="powermenu_settings_title">PowerMenu</string>    
+    
     <!-- Display fragment -->
     <string name="display_settings_title">Display</string>
     <!-- Wake when connected/disconnected -->
