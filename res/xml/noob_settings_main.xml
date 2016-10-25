@@ -4,4 +4,15 @@
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
         android:title="@string/noob_settings_title" >
 
+    <PreferenceCategory
+        android:key="noob_ui"
+        android:title="@string/noob_ui">
+        
+        <PreferenceScreen
+            android:fragment="com.noob.settings.fragments.StatusBarSettings"
+            android:key="noob_statusbar_settings"
+            android:title="@string/statusbar_settings_title"/>
+            
+    </PreferenceCategory>                        
+
 </PreferenceScreen>
