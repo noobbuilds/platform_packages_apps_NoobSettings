@@ -9,6 +9,11 @@
         android:title="@string/noob_ui">
         
         <PreferenceScreen
+            android:fragment="com.noob.settings.fragments.NotificationDrawerSettings"
+            android:key="noob_notification_drawer_settings"
+            android:title="@string/notification_drawer_settings_title"/>       
+        
+        <PreferenceScreen
             android:fragment="com.noob.settings.fragments.StatusBarSettings"
             android:key="noob_statusbar_settings"
             android:title="@string/statusbar_settings_title"/>
@@ -19,11 +24,31 @@
         android:key="noob_buttons"
         android:title="@string/noob_buttons">
         
+        <PreferenceScreen
+            android:fragment="com.noob.settings.fragments.NavBarSettings"
+            android:key="noob_navbar_settings"
+            android:title="@string/navbar_settings_title"/>
+            
+        <PreferenceScreen
+            android:fragment="com.noob.settings.fragments.VolumeRockerSettings"
+            android:key="noob_volumerocker_settings"
+            android:title="@string/volumerocker_settings_title"/>                   
+        
     </PreferenceCategory>
     
     <PreferenceCategory
         android:key="noob_system"
         android:title="@string/noob_system">
+        
+        <PreferenceScreen
+            android:fragment="com.noob.settings.fragments.DisplaySettings"
+            android:key="noob_display_settings"
+            android:title="@string/display_settings_title"/>
+
+        <PreferenceScreen
+            android:fragment="com.noob.settings.fragments.NotificationMediaSettings"
+            android:key="noob_notification_media_settings"
+            android:title="@string/notification_media_settings_title"/>        
         
      </PreferenceCategory>                                              
 

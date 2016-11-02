@@ -11,5 +11,20 @@
      <string name="statusbar_settings_title">Statusbar</string>
     <!-- double tap statusbar to sleep -->
     <string name="double_tap_to_sleep_title">Double-tap to sleep</string>
-    <string name="double_tap_to_sleep_summary">Double tap on the status bar to put the device to sleep</string>     
+    <string name="double_tap_to_sleep_summary">Double tap on the status bar to put the device to sleep</string>
+    
+    <!-- Display fragment -->
+    <string name="display_settings_title">Display</string>
+    
+    <!-- Navbar fragment -->
+    <string name="navbar_settings_title">Navigation bar</string>
+    
+    <!-- Notification drawer fragment -->
+    <string name="notification_drawer_settings_title">Notification drawer</string>
+    
+    <!-- Notification & Media fragment -->
+    <string name="notification_media_settings_title">Media &amp; notifications</string>
+    
+    <!-- Volume Rocker fragment -->
+    <string name="volumerocker_settings_title">Volume rocker</string>                    
 </resources>
