@@ -4,6 +4,8 @@
 
      <!-- Categories -->
      <string name="noob_ui">** User Choices **</string>
+    <string name="noob_buttons">** Buttons **</string>
+    <string name="noob_system">** System **</string>     
      
      <!-- StatusBar fragment -->
      <string name="statusbar_settings_title">Statusbar</string>

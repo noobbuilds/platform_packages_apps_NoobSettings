@@ -13,6 +13,18 @@
             android:key="noob_statusbar_settings"
             android:title="@string/statusbar_settings_title"/>
             
-    </PreferenceCategory>                        
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:key="noob_buttons"
+        android:title="@string/noob_buttons">
+        
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:key="noob_system"
+        android:title="@string/noob_system">
+        
+     </PreferenceCategory>                                              
 
 </PreferenceScreen>
