@@ -40,7 +40,13 @@
         android:title="@string/volbtn_cursor_control_title"
         android:entries="@array/volbtn_cursor_control_entries"
         android:entryValues="@array/volbtn_cursor_control_values"
-        android:persistent="false" />        
+        android:persistent="false" />
+        
+    <ListPreference
+        android:key="screenrecord_chord_type"
+        android:title="@string/screen_record_chord_title"
+        android:entries="@array/screen_record_chord_entries"
+        android:entryValues="@array/screen_record_chord_values" />                
         
     <com.noob.settings.preferences.SystemSettingSwitchPreference
         android:key="swap_volume_buttons"
