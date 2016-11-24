@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2016 The Pure Nexus Project
+     Copyright (C) 2017 The Noobbuilds
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,25 +17,42 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
     
-    <com.noob.settings.preferences.SecureSettingSwitchPreference
-        android:key="qs_show_brightness"
-        android:title="@string/qs_brightness_slider_title"
-        android:summary="@string/qs_brightness_slider_summary"
-        android:defaultValue="true"/>
-	    
+    <PreferenceCategory
+        android:title="@string/notification_panel_title">
 
-    <ListPreference
-        android:key="quick_pulldown"
-        android:title="@string/quick_pulldown_title"
-        android:entries="@array/quick_pulldown_entries"
-        android:entryValues="@array/quick_pulldown_values"
-        android:persistent="false" />
+        <ListPreference
+            android:key="quick_pulldown"
+            android:title="@string/quick_pulldown_title"
+            android:entries="@array/quick_pulldown_entries"
+            android:entryValues="@array/quick_pulldown_values"
+            android:persistent="false" />
 
-    <ListPreference
-        android:key="smart_pulldown"
-        android:title="@string/smart_pulldown_title"
-        android:entries="@array/smart_pulldown_entries"
-        android:entryValues="@array/smart_pulldown_values"
-        android:persistent="false" />
+        <ListPreference
+            android:key="smart_pulldown"
+            android:title="@string/smart_pulldown_title"
+            android:entries="@array/smart_pulldown_entries"
+            android:entryValues="@array/smart_pulldown_values"
+            android:persistent="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/qs_panel_title">
+
+        <com.noob.settings.preferences.SecureSettingSwitchPreference
+            android:key="qs_show_brightness"
+            android:title="@string/qs_brightness_slider_title"
+            android:summary="@string/qs_brightness_slider_summary"
+            android:defaultValue="true"/>
+
+        <com.noob.settings.preferences.CustomSeekBarPreference
+            android:key="qs_layout_columns"
+            android:title="@string/qs_columns_title"
+            android:max="6"
+            settings:min="3"
+            settings:units=""
+            android:persistent="false" />
+
+    </PreferenceCategory>
 
 </PreferenceScreen>
