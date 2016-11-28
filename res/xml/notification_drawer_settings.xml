@@ -45,11 +45,17 @@
             android:summary="@string/qs_brightness_slider_summary"
             android:defaultValue="true"/>
 
+        <com.noob.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_tile_title_visibility"
+            android:title="@string/qs_tile_title_visibility_title"
+            android:summary="@string/qs_tile_title_visibility_summary"
+            android:defaultValue="true"/>
+
         <com.noob.settings.preferences.CustomSeekBarPreference
             android:key="qs_layout_columns"
             android:title="@string/qs_columns_title"
-            android:max="6"
-            settings:min="3"
+            android:max="9"
+            settings:min="1"
             settings:units=""
             android:persistent="false" />
 
